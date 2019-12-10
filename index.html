@@ -31,6 +31,7 @@
 <body id="page-top">
 
   <!-- Navigation -->
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">Project: Dialogue Tool</a>
@@ -38,23 +39,50 @@
         <i class="fas fa-bars"></i>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
+        <ul class="navbar-nav nav-tabs ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#prototype">The Prototype</a>
+            <a class="nav-link" data-toggle="tab" href="#prototype">The Prototype</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#process">The Work Process</a>
+            <a class="nav-link" data-toggle="tab" href="#process">The Work Process</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#report" role="tab" aria-controls="report" aria-selected="false">Report</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            <a class="nav-link" data-toggle="tab" href="#contact">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <div class="tab-content">
+    <div id="prototype" class="tab-pane fade in active">
+      <h3>HOME</h3>
+      <p>Some content.</p>
+    </div>
+    <div id="process" class="tab-pane fade">
+      <img class="image" src="img/3a.png" height=75% align="middle">
+      <h3>Menu 1</h3>
+      <p>Some content in menu 1.</p>
+    </div>
+    <div id="contact" class="tab-pane fade">
+      <h3>Menu 2</h3>
+      <p>Some content in menu 2.</p>
+    </div>
+</div>
+
+
+<!--
+NEW NAV
+
+  <div class="container">
+    <ul class="nav nav-pills">
+      <li><a href="#prototype">Prototype</a></li>
+      <li><a href="#report">Report</a></li>
+      <li><a href="#process">Contact Us</a></li>
+
+  </ul>
+  </div>
+-->
 
   <header class="masthead">
     <div class="container h-100">
@@ -272,12 +300,10 @@
     </div>
     <div class="overlay"></div>
   </section>
-
 -->
   <!--
   <section class="contact bg-primary" id="contact">
     <div class="container">
-
       <h2>We
         <i class="fas fa-heart"></i>
         new friends!</h2>

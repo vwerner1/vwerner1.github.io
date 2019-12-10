@@ -39,6 +39,11 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
+  $(".nav-item").on("click", function() {
+    $('a[data-toggle="tab"]').removeClass("active");
+    $(this).addClass("active");
+  });
+
 })(jQuery); // End of use strict
 
 //used for slideshow
