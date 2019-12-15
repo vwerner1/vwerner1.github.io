@@ -16,7 +16,7 @@ body {
 
 /* Fit frame to phone size */
 .col-lg-5 {
-  width: 667px !important;
+  width: 375px !important;
 }
 
 a {
