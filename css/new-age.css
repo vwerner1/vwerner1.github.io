@@ -14,6 +14,11 @@ body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+/* Fit frame to phone size */
+.col-lg-5 {
+  width: 667px !important;
+}
+
 a {
   color: #00837c; /* byt färg  */
   transition: all .35s;
