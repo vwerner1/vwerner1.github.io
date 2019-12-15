@@ -256,7 +256,7 @@
             <br>
             <div class="container h-100">
               <div class="row h-100">
-                <div class="col-lg-6 my-auto">
+                <div class="col-lg-5 my-auto">
                   <!-- first column-->
                   <div class="device-container">
                     <div class="device-mockup iphone6_plus portrait white">
@@ -269,7 +269,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-7 my-auto">
+                <div class="col-lg-5 my-auto">
                   <!-- second column-->
                   <div class="device-container">
                     <div class="device-mockup iphone6_plus landscape white">
@@ -285,6 +285,17 @@
                 </div>
               </div>
             </div>
+            <div class="box"></div>
+            <button onclick="rotateElem()">
+    Rotate by 90 degrees
+</button>
+
+<script type="text/javascript">
+    function rotateElem() {
+        document.querySelector('.box').style.transform
+                   = 'rotate(90deg)';
+    }
+</script>
             <br>
             <br>
             <br>
