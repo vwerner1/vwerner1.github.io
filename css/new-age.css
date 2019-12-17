@@ -259,6 +259,7 @@ section.process .section-heading h2 {
 
 section.process .section-heading p {
   margin-bottom: 0;
+  text-align: left;
 }
 
 section.process .device-container,
@@ -268,7 +269,7 @@ section.process .feature-item {
 }
 
 section.process .device-container {
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 992px) {
@@ -278,8 +279,8 @@ section.process .device-container {
 }
 
 section.process .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 0px;
+  padding-bottom: 25px;
   text-align: center;
 }
 
@@ -309,6 +310,10 @@ section.process .feature-item i3 {
   background: linear-gradient(to left, #5d237d, #5d237d);  /* TODO: ev fixa toning här */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+section.process li {
+  text-align: left;
 }
 
 section.cta {
