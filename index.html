@@ -256,7 +256,12 @@
             <br>
             <div class="container h-100">
               <div class="row h-100">
-                <div class="col-lg-4 my-auto">
+                <div class="col-lg-4">
+                  <br>
+                  <br>
+                  <a href="javascript:;" class="btn btn-toggle360 btn-outline-dark btn-xl js-scroll-trigger"  onmousedown="toggleDiv('mydiv');">Toggle vertical / horizontal view</a>
+                </div>
+                <div id="mydivon" class="col-lg-4 my-auto" style="display:block">
                   <!-- first column-->
                   <div class="device-container">
                     <div class="device-mockup iphone6_plus portrait white">
@@ -270,7 +275,7 @@
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-8 my-auto">
+                <div id="mydivoff" class="col-lg-8 my-auto"style="display:none">
                   <!-- second column-->
                   <div class="device-container align-bottom">
                     <div class="device-mockup iphone6_plus landscape white">

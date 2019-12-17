@@ -437,6 +437,16 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   font-size: 11px;
   padding: 15px 45px;
 }
+.btn-toggle360 {
+  vertical-align: top;
+  color: white;
+  background: rgba(93,35,125, 0.85  );
+}
+
+.btn-toggle360:hover {
+  border-color: #c2eee7;
+  background-color: #00837c;
+}
 
 /* Egna klasser */
 
